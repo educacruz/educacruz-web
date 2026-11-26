@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EDUCACRUZ: tutorías personalizadas y acompañamiento académico en Montería, Córdoba.">
+  <meta name="description" content="EDUCACRUZ: tutorías personalizadas, acompañamiento académico y formación en Literatura y Lengua Castellana en Montería, Córdoba.">
   <meta name="theme-color" content="#102b50">
   <title>EDUCACRUZ | Aprender con acompañamiento</title>
   <link rel="icon" href="assets/logo-educacruz.png">
@@ -15,72 +15,139 @@
       <img src="assets/logo-educacruz.png" alt="Logotipo de EDUCACRUZ">
       <span><strong>EDUCACRUZ</strong><small>Aprender con acompañamiento marca la diferencia.</small></span>
     </a>
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#nosotros">Quiénes somos</a><a href="#servicios">Servicios</a>
-      <a href="#tarifas">Tarifas</a><a href="#biblioteca">Biblioteca</a><a href="#contacto">Contacto</a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav class="nav" id="main-nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio" aria-current="page">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#vacacionales">Vacacionales</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#fundamentacion">Modelo TAA</a>
+      <a href="#biblioteca">Biblioteca</a>
+      <a href="#contacto" class="nav-contact">Contacto <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
+    <section class="hero page-view active" id="inicio" data-page="inicio">
       <div class="hero-copy">
-        <p class="eyebrow">EDUCACIÓN · ACOMPAÑAMIENTO · APRENDIZAJE</p>
+        <p class="eyebrow"><span class="eyebrow-line"></span> EDUCACIÓN · ACOMPAÑAMIENTO · APRENDIZAJE</p>
         <h1>Aprender con acompañamiento <em>marca la diferencia.</em></h1>
-        <p>Un espacio de apoyo educativo para fortalecer los aprendizajes, desarrollar habilidades y avanzar con confianza.</p>
-        <div class="hero-actions"><a class="button button-gold" href="#servicios">Conoce los servicios</a><a class="button button-outline" href="#biblioteca">Explora los materiales</a></div>
+        <p class="hero-lead">Acompañamiento educativo pensado para fortalecer aprendizajes, desarrollar habilidades y avanzar con confianza.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#servicios">Conoce nuestros servicios <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#contacto">Hablemos</a></div>
+        <div class="hero-proof"><span class="proof-dot"></span> Atención personalizada · Montería, Córdoba</div>
       </div>
-      <div class="hero-mark"><img src="assets/logo-educacruz.png" alt="EDUCACRUZ"></div>
+      <div class="hero-visual">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-logo-card"><img src="assets/logo-educacruz.png" alt="Logotipo de EDUCACRUZ"></div>
+        <div class="hero-note note-top"><span class="note-symbol">T</span><span><strong>Tutoría</strong><small>Atención personalizada</small></span></div>
+        <div class="hero-note note-bottom"><span class="note-symbol">A</span><span><strong>Acompañamiento</strong><small>Seguimiento al aprendizaje</small></span></div>
+      </div>
     </section>
 
-    <section class="section intro" id="nosotros">
-      <div><p class="eyebrow">CONÓCENOS</p><h2>Acompañamiento educativo con propósito</h2></div>
-      <div><p>EDUCACRUZ ofrece tutorías personalizadas y acompañamiento académico, con atención a las necesidades y al proceso de aprendizaje de cada estudiante. Nuestro propósito es apoyar el desarrollo de competencias y promover una relación más consciente, autónoma y significativa con el conocimiento.</p>
-      <p>El servicio se desarrolla desde una perspectiva pedagógica, cercana y comprometida con la formación integral.</p></div>
+    <section class="quick-hub" aria-label="Accesos rápidos">
+      <div class="hub-heading"><p class="eyebrow">UN ESPACIO PARA APRENDER</p><h2>Explora EDUCACRUZ</h2><p>Encuentra el servicio, recurso o información que necesitas.</p></div>
+      <div class="hub-grid">
+        <a class="hub-card" href="#servicios"><span>01</span><strong>Servicios</strong><small>Tutoría · Acompañamiento · Asesoría</small><b>Explorar →</b></a>
+        <a class="hub-card" href="#tarifas"><span>02</span><strong>Tarifas</strong><small>Valores y condiciones del servicio</small><b>Consultar →</b></a>
+        <a class="hub-card" href="#vacacionales"><span>03</span><strong>Vacacionales</strong><small>Programación 2026–2027</small><b>Conocer →</b></a>
+        <a class="hub-card" href="#cursos"><span>04</span><strong>Cursos</strong><small>Literatura y Lengua Castellana</small><b>Descubrir →</b></a>
+        <a class="hub-card" href="#fundamentacion"><span>05</span><strong>Modelo TAA</strong><small>Fundamentación pedagógica</small><b>Leer →</b></a>
+        <a class="hub-card" href="#biblioteca"><span>06</span><strong>Biblioteca</strong><small>Materiales para aprender</small><b>Explorar →</b></a>
+        <a class="hub-card" href="#novedades"><span>07</span><strong>Novedades</strong><small>Noticias y nuevos recursos</small><b>Conocer →</b></a>
+        <a class="hub-card" href="#novedades"><span>07</span><strong>Novedades</strong><small>Noticias y nuevos recursos</small><b>Conocer →</b></a>
+      </div>
+      <div class="hub-bottom"><span>¿Tienes alguna pregunta?</span><a href="#contacto">Comunícate con EDUCACRUZ →</a></div>
     </section>
 
-    <section class="section profile-section">
-      <div class="profile-image"><img src="assets/perfil-profesional.png" alt="Perfil profesional"></div>
+    <section class="section intro page-view about-section" id="nosotros" data-page="nosotros">
+      <div class="about-photo-wrap">
+        <div class="about-photo-frame">
+          <img src="assets/perfil-educacruz.jpg" alt="Retrato del profesional fundador de EDUCACRUZ en su espacio de estudio">
+        </div>
+        <span class="about-photo-caption">EDUCACRUZ · Formación y acompañamiento</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">CONÓCENOS</p>
+        <h2>Acompañamiento educativo con propósito</h2>
+        <p>EDUCACRUZ es una propuesta de apoyo educativo dirigida a fortalecer los aprendizajes y acompañar el proceso escolar de cada estudiante mediante tutorías personalizadas, acompañamiento académico y asesoría académica.</p>
+        <p>Está liderada por un <strong>Licenciado en Literatura y Lengua Castellana</strong> y tutor independiente, con formación en el campo de la educación y especial interés en la enseñanza de la lengua, la literatura, la lectura y la escritura.</p>
+        <p>Su trabajo parte del reconocimiento de las necesidades de cada estudiante y busca desarrollar conocimientos, habilidades y mayor autonomía académica, respetando sus ritmos y formas de aprender.</p>
+        <div class="about-credentials"><span>Licenciado en Literatura y Lengua Castellana</span><span>Tutor independiente · Montería, Córdoba</span></div>
+      </div>
+    </section>
+
+    <section class="section profile-section page-view" id="perfil" data-page="perfil">
       <div class="profile-copy"><p class="eyebrow">PERFIL PROFESIONAL</p><h2>Formación y compromiso pedagógico</h2>
-        <p><strong>Licenciado en Literatura y Lengua Castellana</strong>, con formación pedagógica y experiencia en prácticas docentes en educación básica y media.</p>
-        <p>Interés en el fortalecimiento de la competencia literaria, la lectura crítica y la escritura como procesos formativos. Experiencia en planificación de clases, diseño de proyectos de aula y acompañamiento académico.</p>
+        <p><strong>Licenciado en Literatura y Lengua Castellana</strong> y tutor independiente. Su formación se orienta al campo de la educación, la enseñanza de la lengua y la literatura, y el fortalecimiento de los procesos de aprendizaje en educación básica.</p>
+        <p>Desde EDUCACRUZ desarrolla acciones de tutoría personalizada, acompañamiento académico y asesoría académica. Su trabajo se centra en reconocer las necesidades de cada estudiante, orientar el desarrollo de actividades escolares y fortalecer conocimientos y habilidades mediante estrategias ajustadas a sus características y ritmo de aprendizaje.</p>
+        <p>Promueve especialmente la lectura, la comprensión, la interpretación y la producción escrita, así como el desarrollo progresivo de la autonomía académica.</p>
         <p class="profile-meta">Montería, Córdoba · Colombia</p>
       </div>
     </section>
 
-    <section class="section tinted" id="servicios">
+    <section class="section tinted page-view" id="servicios" data-page="servicios">
       <div class="section-heading"><p class="eyebrow">QUÉ HACEMOS</p><h2>Servicios educativos</h2><p>Apoyo académico organizado de acuerdo con las necesidades del estudiante.</p></div>
       <div class="cards three">
-        <article class="service-card"><span class="card-number">01</span><h3>Tutoría personalizada</h3><p>Espacios individuales para explicar, practicar y fortalecer los contenidos escolares.</p></article>
-        <article class="service-card"><span class="card-number">02</span><h3>Acompañamiento académico</h3><p>Seguimiento periódico al proceso escolar, hábitos de estudio y cumplimiento de actividades.</p></article>
-        <article class="service-card"><span class="card-number">03</span><h3>Asesoría académica</h3><p>Orientación y apoyo en tareas, talleres, preparación de evaluaciones y actividades de aprendizaje.</p></article>
+        <article class="service-card"><span class="card-number">01</span><h3>Tutoría personalizada</h3><p>Intervención pedagógica individual para fortalecer conocimientos y habilidades mediante explicaciones, ejercicios y actividades de aprendizaje.</p></article>
+        <article class="service-card"><span class="card-number">02</span><h3>Acompañamiento académico</h3><p>Seguimiento continuado al proceso de aprendizaje, con orientación, apoyo y reconocimiento de avances y dificultades.</p></article>
+        <article class="service-card"><span class="card-number">03</span><h3>Asesoría académica</h3><p>Orientación y apoyo para comprender y desarrollar tareas, talleres y otras actividades escolares.</p></article>
       </div>
       <div class="subjects"><strong>Áreas de acompañamiento:</strong> Lengua Castellana · Matemáticas · Inglés</div>
+      <div class="inline-actions"><a href="#tarifas">Consultar tarifas →</a><a href="#vacacionales">Conocer los vacacionales →</a></div>
+      <div class="inline-actions"><a href="#tarifas">Consultar tarifas <span aria-hidden="true">→</span></a><a href="#vacacionales">Conocer los vacacionales <span aria-hidden="true">→</span></a></div>
     </section>
 
-    <section class="section" id="tarifas">
-      <div class="section-heading"><p class="eyebrow">INVERSIÓN EDUCATIVA</p><h2>Tarifas y planes</h2><p>Valores expresados en pesos colombianos (COP).</p></div>
+    <section class="section page-view" id="tarifas" data-page="tarifas">
+      <div class="section-heading"><p class="eyebrow">INVERSIÓN EDUCATIVA</p><h2>Tarifas y servicios</h2><p>Consulta las tarifas de tutoría, acompañamiento mensual y desplazamiento a domicilio.</p></div>
       <div class="cards three price-cards">
         <article class="price-card"><h3>Tutoría individual</h3><p class="price"><strong>$12.000</strong><span>/ 1 hora</span></p><p>2 horas: <strong>$17.000</strong></p><p>3 horas: <strong>$22.000</strong></p></article>
-        <article class="price-card featured"><span class="tag">Acompañamiento mensual</span><h3>Plan de seguimiento</h3><p class="price"><strong>Desde $80.000</strong></p><p>Valor mínimo mensual del acompañamiento. El valor del servicio completo depende de la frecuencia y las sesiones programadas.</p></article>
+        <article class="price-card featured"><span class="tag">Acompañamiento mensual</span><h3>Plan de seguimiento</h3><p class="price"><strong>Desde $80.000</strong></p><p>Tarifa mínima mensual garantizada. El servicio completo se liquida según la frecuencia y las sesiones programadas.</p></article>
         <article class="price-card"><h3>Servicio completo</h3><p><strong>2 días por semana</strong><br>8 sesiones mensuales de 2 horas: <strong>$136.000</strong></p><hr><p><strong>3 días por semana</strong><br>12 sesiones mensuales de 2 horas: <strong>$204.000</strong></p></article>
       </div>
-      <p class="small-note">Los planes completos se calculan sobre cuatro semanas. El servicio a domicilio puede incluir un valor adicional de transporte según la zona. Consulta la tarifa aplicable antes de contratar.</p>
+      <p class="small-note">El desplazamiento a domicilio se cobra por separado y depende de la zona. El documento descargable contiene las condiciones y tablas completas.</p>
+      <div class="download-panel"><div><h3>Documento completo de tarifas y servicios</h3><p>Consulta los valores, condiciones del servicio y tarifas de desplazamiento a domicilio.</p></div><a class="button button-gold" href="documentos/tarifas-y-servicios.pdf" download>Descargar PDF</a></div>
     </section>
 
-    <section class="section tinted" id="biblioteca">
+    <section class="section tinted page-view" id="vacacionales" data-page="vacacionales">
+      <div class="section-heading"><p class="eyebrow">RECESO ESCOLAR</p><h2>Vacacionales 2026–2027</h2><p>Semanas de trabajo académico para aprovechar el receso escolar, reforzar aprendizajes y preparar el siguiente periodo.</p></div>
+      <div class="cards three">
+        <article class="service-card"><span class="card-number">ORGANIZACIÓN</span><h3>Semanas programadas</h3><p>Cinco jornadas por semana, con dos horas diarias de atención, para un total de diez horas semanales.</p></article>
+        <article class="service-card"><span class="card-number">ÁREAS</span><h3>Formación académica</h3><p>Inglés, Matemáticas y Lengua Castellana, de acuerdo con el área que seleccione la familia.</p></article>
+        <article class="service-card"><span class="card-number">DESCUENTOS</span><h3>Tarifas especiales</h3><p>15 % de descuento por una semana y 20 % por la contratación de dos o más semanas.</p></article>
+      </div>
+      <div class="download-panel"><div><h3>Información de los vacacionales</h3><p>Fechas, tarifas, descuentos, transporte a domicilio y condiciones de participación.</p></div><a class="button button-gold" href="documentos/vacacionales-2026-2027.pdf" download>Descargar PDF</a></div>
+    </section>
+
+    <section class="section page-view" id="cursos" data-page="cursos">
+      <div class="section-heading"><p class="eyebrow">FORMACIÓN DISCIPLINAR</p><h2>Cursos de Literatura y Lengua Castellana</h2><p>Espacio destinado exclusivamente a propuestas de formación en literatura y lengua castellana.</p></div>
+      <div class="course-intro"><h3>Aprender, leer, interpretar y escribir</h3><p>Esta sección reunirá cursos orientados al estudio de la lengua, la lectura, la escritura y la literatura. Los contenidos y las condiciones de cada propuesta se publicarán cuando se encuentren disponibles.</p><p class="small-note">Próximamente se anunciarán aquí los cursos, sus objetivos, contenidos, modalidad y fechas.</p></div>
+    </section>
+
+    <section class="section tinted page-view" id="fundamentacion" data-page="fundamentacion">
+      <div class="section-heading"><p class="eyebrow">NUESTRO ENFOQUE</p><h2>Fundamentación pedagógica y modelo TAA</h2><p>Una propuesta educativa que integra intervención personalizada, continuidad y orientación académica.</p></div>
+      <div class="cards three">
+        <article class="service-card"><span class="card-number">T</span><h3>Tutoría personalizada</h3><p>Intervención pedagógica directa durante las sesiones: explicaciones, ejercicios, actividades y retroalimentación ajustadas a las necesidades del estudiante.</p></article>
+        <article class="service-card"><span class="card-number">A</span><h3>Acompañamiento académico</h3><p>Proceso continuado de orientación, apoyo y seguimiento para reconocer avances, atender dificultades y favorecer la constancia.</p></article>
+        <article class="service-card"><span class="card-number">A</span><h3>Asesoría académica</h3><p>Orientación para comprender y desarrollar actividades escolares, organizar procedimientos y avanzar hacia una mayor autonomía.</p></article>
+      </div>
+      <div class="course-intro"><h3>Una intervención centrada en el aprendizaje</h3><p>El servicio reconoce las necesidades particulares del estudiante, planifica estrategias pedagógicas, desarrolla actividades de fortalecimiento y realiza seguimiento de los avances. Su propósito es contribuir al desempeño escolar, la consolidación de aprendizajes y el desarrollo progresivo de la autonomía académica.</p></div>
+      <div class="download-panel"><div><h3>Fundamentación conceptual del servicio</h3><p>Documento que desarrolla los fundamentos de la tutoría personalizada y el acompañamiento académico.</p></div><a class="button button-gold" href="documentos/fundamentacion-pedagogica.pdf" download>Descargar PDF</a></div>
+    </section>
+
+    <section class="section tinted page-view" id="biblioteca" data-page="biblioteca">
       <div class="section-heading"><p class="eyebrow">RECURSOS PARA APRENDER</p><h2>Biblioteca de materiales</h2><p>Guías, talleres y recursos descargables para apoyar el aprendizaje.</p></div>
       <div class="library-tools"><input id="search-materials" type="search" placeholder="Buscar por título, grado o área..." aria-label="Buscar materiales"><select id="filter-area" aria-label="Filtrar por área"><option value="">Todas las áreas</option><option>Lengua Castellana</option><option>Matemáticas</option><option>Inglés</option><option>General</option></select></div>
       <div id="materials-list" class="cards three" aria-live="polite"></div>
       <p class="small-note">La biblioteca se irá ampliando con nuevos materiales. Los archivos disponibles se publicarán aquí para consulta y descarga gratuita.</p>
     </section>
 
-    <section class="section updates">
+    <section class="section updates page-view" id="novedades" data-page="novedades">
       <div><p class="eyebrow">NOVEDADES</p><h2>Seguimos construyendo oportunidades para aprender</h2><p>En este espacio compartiremos nuevos materiales, avisos de servicio y novedades de EDUCACRUZ.</p></div>
       <div class="update-note"><strong>Próximamente</strong><p>Publicaremos nuevos recursos educativos organizados por grado y área.</p></div>
     </section>
 
-    <section class="contact-section" id="contacto">
+    <section class="contact-section page-view" id="contacto" data-page="contacto">
       <div><p class="eyebrow">HABLEMOS</p><h2>Tu proceso de aprendizaje puede comenzar hoy.</h2><p>Comunícate para consultar disponibilidad, resolver inquietudes o conocer el servicio adecuado.</p></div>
       <div class="contact-actions"><a class="button button-gold" href="https://wa.me/573044672177" target="_blank" rel="noopener">Escribir por WhatsApp</a><a class="contact-link" href="mailto:jdcruzuc@gmail.com">jdcruzuc@gmail.com</a><span>Montería, Córdoba, Colombia</span></div>
     </section>

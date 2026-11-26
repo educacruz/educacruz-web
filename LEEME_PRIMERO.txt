@@ -1,57 +1,27 @@
-EDUCACRUZ — SITIO WEB INICIAL
-=============================
+EDUCACRUZ — REDISEÑO HÍBRIDO ACADÉMICO Y MODERNO
+=================================================
 
-1. VISTA PREVIA
-Abre index.html en tu navegador para revisar el sitio en tu computador.
-Algunas funciones que cargan archivos JSON pueden no funcionar al abrirlo directamente como archivo local.
-Para probarlo correctamente puedes publicarlo en GitHub Pages o usar una extensión de servidor local.
+CONCEPTO VISUAL
+- Se conserva el logotipo oficial y la identidad azul oscuro, dorado y blanco.
+- Se combina una estética editorial académica con componentes digitales contemporáneos.
+- Títulos editoriales, textos legibles, espacios amplios y microinteracciones discretas.
+- Portada renovada con el logo integrado en una composición visual.
+- Navegación por secciones independientes y menú adaptable a celulares.
 
-2. ESTRUCTURA
-- index.html: contenido y secciones de la página.
-- styles.css: colores, diseño y adaptación a móviles.
-- script.js: menú y buscador de la biblioteca.
-- assets/: logotipo e imágenes.
-- materiales/: aquí guardarás los PDF descargables.
-- materiales/materiales.json: catálogo de materiales que se muestra en la biblioteca.
+ARCHIVOS
+- index.html: contenido y secciones.
+- styles.css: sistema visual y diseño responsive.
+- script.js: navegación, historial del navegador y biblioteca.
+- assets/: logotipo y recursos gráficos.
+- documentos/: PDF descargables.
+- materiales/: biblioteca.
 
-3. CÓMO AÑADIR UN PDF
-a) Copia el PDF dentro de la carpeta materiales/.
-b) Abre materiales/materiales.json con un editor de texto.
-c) Añade un objeto siguiendo este ejemplo:
-   {
-     "titulo": "Taller de lectura - Grado 4",
-     "area": "Lengua Castellana",
-     "grado": "Grado 4",
-     "descripcion": "Actividad de comprensión lectora.",
-     "archivo": "taller-lectura-grado-4.pdf"
-   }
-d) Guarda el archivo. El nombre en "archivo" debe coincidir exactamente con el PDF.
-e) Sube los cambios a GitHub. GitHub Pages actualizará el sitio automáticamente.
+PUBLICACIÓN EN GITHUB PAGES
+1. Descomprime el ZIP.
+2. Entra a https://github.com/educacruz/educacruz-web.
+3. Sube el contenido de EDUCACRUZ_web conservando la estructura.
+4. No cambies nombres ni ubicación de los PDF.
+5. Confirma con Commit changes y espera la publicación.
 
-Áreas disponibles en el filtro:
-Lengua Castellana, Matemáticas, Inglés y General.
-
-4. CÓMO PUBLICAR GRATIS CON GITHUB PAGES
-a) Crea una cuenta en https://github.com/
-b) Verifica tu correo.
-c) Crea un repositorio nuevo y público. Puedes llamarlo educacruz.
-d) Sube el CONTENIDO de esta carpeta (no el ZIP) al repositorio.
-e) En el repositorio entra en Settings > Pages.
-f) En "Build and deployment", selecciona "Deploy from a branch".
-g) Elige la rama "main" y la carpeta "/ (root)"; pulsa Save.
-h) Espera a que GitHub Pages publique el sitio. La dirección aparecerá en esa misma sección.
-
-5. CÓMO ACTUALIZAR
-Cada vez que edites textos, imágenes, CSS o añadas PDF, guarda los cambios y súbelos al repositorio de GitHub. La publicación se actualizará automáticamente después del proceso de despliegue.
-
-6. DATOS DE CONTACTO INCLUIDOS
-Correo: jdcruzuc@gmail.com
-WhatsApp: +57 304 467 2177
-Ubicación: Montería, Córdoba, Colombia
-
-7. IMPORTANTE
-- El sitio está configurado para que la biblioteca sea pública y gratuita.
-- No se incluye inicio de sesión ni datos privados.
-- Las tarifas reflejan la información de trabajo disponible al preparar esta versión. Revisa los valores antes de hacer pública la web.
-- El transporte a domicilio se consulta según la zona y no se ha fijado una tabla pública en esta versión.
-- Esta versión no crea una cuenta GitHub ni publica el sitio por sí sola. Esos pasos requieren que tú inicies sesión y autorices la publicación.
+NOTA
+Los PDF se conservaron sin modificar. Antes de publicar, actualiza el PDF de vacacionales para reflejar las tarifas de domicilio y el anticipo del 50 % acordados recientemente.
